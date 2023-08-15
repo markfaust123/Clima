@@ -18,3 +18,9 @@ const kButtonTextStyle = TextStyle(
 const kConditionTextStyle = TextStyle(
   fontSize: 100.0,
 );
+
+final ButtonStyle kFlatButtonStyle = TextButton.styleFrom(
+  minimumSize: Size(30, 10),
+  backgroundColor: Colors.grey,
+  padding: EdgeInsets.all(0),
+);
